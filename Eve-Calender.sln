@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Calender", "Eve-Calender\Eve-Calender.csproj", "{29BD8AB9-6276-4B92-95BA-6F9F5F9C367E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{952C623F-C97D-4D1E-AA50-F0E056A2A1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BD8AB9-6276-4B92-95BA-6F9F5F9C367E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BD8AB9-6276-4B92-95BA-6F9F5F9C367E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BD8AB9-6276-4B92-95BA-6F9F5F9C367E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BD8AB9-6276-4B92-95BA-6F9F5F9C367E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952C623F-C97D-4D1E-AA50-F0E056A2A1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952C623F-C97D-4D1E-AA50-F0E056A2A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952C623F-C97D-4D1E-AA50-F0E056A2A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952C623F-C97D-4D1E-AA50-F0E056A2A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4325B9C7-196A-4F95-91F3-4F9DFCF4A5AF}
+	EndGlobalSection
+EndGlobal

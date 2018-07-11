@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  eve-calender:
+    image: evecalender
+    links:
+      - mongo
+    build:
+      context: .
+      dockerfile: Eve-Calender/Dockerfile
+    ports:
+      - 3545:80    
+  mongo:
+    image: mongo
+    restart: always
+    command: --auth
+    volumes:
+      - mongo-volume:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: Characters      
+  mongo-express:
+    image: mongo-express
+    restart: always    
+    ports:
+      - 8081:8081    
+volumes:
+  mongo-volume:

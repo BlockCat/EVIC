@@ -1,0 +1,6 @@
+.vs/
+bin/
+obj/
+docker-compose.override.yml
+Eve-Calender/bin/
+Eve-Calender/obj/
