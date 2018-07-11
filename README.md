@@ -6,6 +6,7 @@ The code is not that great but it works.
 # How to install using docker-compose
 
 * Create an application at your https://developers.eveonline.com/
+* Rename: docker-compose.override-example.yml to docker-compose.override.yml
 * Give it the scope: esi-calendar.read_calendar_events
 * Give it the callback url: {your_url}/api/Authorization/code
 * Fill in the client_id, client_secret, base_url={your_url}
