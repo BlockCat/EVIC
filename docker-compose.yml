@@ -18,10 +18,10 @@ services:
       - mongo-volume:/data/db
     environment:
       MONGO_INITDB_DATABASE: Characters      
-  mongo-express:
-    image: mongo-express
-    restart: always    
-    ports:
-      - 8081:8081    
+
+
+
+
+
 volumes:
   mongo-volume:

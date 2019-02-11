@@ -64,7 +64,7 @@ namespace Eve_Calender.Services
 
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {accessToken.AccessToken}");
-            client.DefaultRequestHeaders.Add("Host", "esi.tech.ccp.is");
+            client.DefaultRequestHeaders.Add("Host", "esi.evetech.net");
             client.DefaultRequestHeaders.Add("User-Agent", Program.USER_AGENT);
 
             string jsonString = await client.GetStringAsync(verificationUri);
