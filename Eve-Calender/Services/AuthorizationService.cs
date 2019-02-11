@@ -60,7 +60,7 @@ namespace Eve_Calender.Services
 
         public async Task<int> verifyCharacterAsync(AccessTokenModel accessToken)
         {
-            string verificationUri = "https://esi.tech.ccp.is/verify/";
+            string verificationUri = "https://esi.evetech.net/verify/";
 
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {accessToken.AccessToken}");
